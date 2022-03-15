@@ -1,0 +1,19 @@
+{
+  "name": "readme-tutorials",
+  "version": "0.1.0",
+  "description": "Tutorials for Dash Platform",
+  "main": "connect.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dash": "^3.22.0-dev.14"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.11.0"
+  }  
+}
