@@ -2,7 +2,7 @@ const Dash = require('dash');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const aliasToRegister = 'abc-alias'; // Enter alias to register
+const aliasToRegister = ''; // Enter alias to register
 
 const clientOpts = {
   wallet: {

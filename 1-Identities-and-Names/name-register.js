@@ -2,7 +2,7 @@ const Dash = require('dash');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const nameToRegister = 'abc'; // Enter name to register
+const nameToRegister = ''; // Enter name to register
 
 const clientOpts = {
   wallet: {
