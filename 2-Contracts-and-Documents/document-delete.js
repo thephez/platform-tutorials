@@ -1,3 +1,4 @@
+// See https://dashplatform.readme.io/docs/tutorial-delete-documents
 const Dash = require('dash');
 const dotenv = require('dotenv');
 dotenv.config();

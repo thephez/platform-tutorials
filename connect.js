@@ -1,3 +1,4 @@
+// See https://dashplatform.readme.io/docs/tutorial-connecting-to-testnet
 const Dash = require('dash');
 
 const client = new Dash.Client();

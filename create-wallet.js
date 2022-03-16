@@ -1,3 +1,4 @@
+// See https://dashplatform.readme.io/docs/tutorial-create-and-fund-a-wallet
 const Dash = require('dash');
 
 const clientOpts = {

@@ -1,3 +1,4 @@
+// See https://dashplatform.readme.io/docs/tutorial-retrieve-an-identity
 const Dash = require('dash');
 const dotenv = require('dotenv');
 dotenv.config();
