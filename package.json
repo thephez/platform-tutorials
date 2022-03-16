@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dash": "^3.22.0-dev.14"
+    "dash": "3.22.0-dev.14"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
