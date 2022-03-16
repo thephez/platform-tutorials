@@ -2,19 +2,23 @@
 
 ## Install
 
+Clone this repository:
+
 ``` shell
 git clone https://github.com/thephez/readme-tutorials.git
 ```
 
+Do a clean install of project dependencies:
+
 ``` shell
-npm install
+npm ci
 ```
 
 ## Usage
 
 1. Check connection: `node connect.js`
 1. Create wallet: `node create-wallet.js`
-1. Add funds to the address reported in the previous step via https://testnet-faucet.dash.org/
-1. Create an `.env` file that sets `MNEMONIC` to the wallet mnemonic from step 2. See [`.env.example`](./.env.example) for an example `.env` file.
+1. Go to https://testnet-faucet.dash.org/ and add funds to the address reported in the previous step
+1. Create an `.env` file (See [`.env.example`](./.env.example) for an example `.env` file). Set `MNEMONIC` to the wallet mnemonic from step 2.
 
-Proceed with tutorials. They align with the ones from the tutorials section of https://dashplatform.readme.io/v0.22.0/docs.
+Proceed with the tutorials Identity and Name tutorials first and the Contracts And Documents tutorials next. They align with the tutorials section of https://dashplatform.readme.io/v0.22.0/docs.
