@@ -14,7 +14,7 @@ const clientOpts = {
 const client = new Dash.Client(clientOpts);
 
 const topupIdentity = async () => {
-  const identityId = process.env.IDENTITY_ID; // Your identity ID;
+  const identityId = process.env.IDENTITY_ID; // Your identity ID
   const topUpAmount = 1000; // Number of duffs
 
   await client.platform.identities.topUp(identityId, topUpAmount);
