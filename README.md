@@ -1,4 +1,4 @@
-# readme-tutorials
+# platform-tutorials
 
 ## Install
 
